@@ -1,0 +1,1 @@
+Use the token as the password - there's no alternative command (or maybe there is and I haven't found it!)
