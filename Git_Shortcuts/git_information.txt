@@ -1,0 +1,16 @@
+What is a Git repository?
+    * Git needs a place to store snapshots. that place would be in the Git repository. 
+
+Where does thes Git respository live?
+    Typically we ten to keep all the files for a project in one folder. If we are going to use Git as our version control
+    system for that project, we first create a repository within that folder so that Git has a place to store our snapshots. 
+
+What does Git commit do?
+    Committing to Git is a two way process. You first add the files and then commit. Only the files that you add are committed. When we commit, 
+    Git uses a specialized algorithm to safely tuck away everything that we added to its memory.
+
+Git repository is divided into two parts?
+    When we run the git add {filename}, Git makes a copy of the file and puts it in the index. We can think of the index as the staging area,
+    wherein we cna put things until were sure we wato to commit to them. 
+    When the git commit command is ran, it takes the contents of the staging area and stores those in the object database also known as Git's memory bank
+    

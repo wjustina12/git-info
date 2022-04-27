@@ -1,0 +1,25 @@
+git init
+* init is short for initialize. Git realizes that we are asking it to create a repository at this location, and it responds by
+creating a hidden folder called .git and stuff it with some configuration files and subfolder where it will store our snapshots
+when we ask it to. 
+.git represents the Git repository. its job is to store everything related to your project, including all commits, the project history, 
+configuration files, and what have you. 
+* There are two ways to obtain a Git repository:
+    1. Create one using git init 
+    2. Clone one using git clone {url}
+
+git config --global user.name = {username} example git config --global user.name=Justina Williams
+git config --global user.email = {email} example git config --global user.email=wjustina12@gmail.com
+
+git add {filename} example | git add helloworld.py
+    * In order to begin tracking a new file, you must use the command git add
+
+git rm {filename} example | git remove helloworld.py
+
+git commit -m "message" | example git commit -m "Initial Commit"
+    * The git commit command has a flag, -m followed by the commmit message. The -m stands for message and is a mechanism for you to provide a meaningful
+    reminder as to why you made this change. 
+
+git status
+
+
