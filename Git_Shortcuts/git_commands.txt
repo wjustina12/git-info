@@ -36,3 +36,6 @@ git remote remove {shortname}
 git push 
     * When you have a project at a point that you want to share, you have to push it upstream. The command for this is simple: 
     git push <remote> <branch>
+
+git remote rename {original name} {new name}
+    * Use this command when you want to change the shortname of a remote 
